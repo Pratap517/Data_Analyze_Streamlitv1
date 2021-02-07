@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+components
+streamlit-pandas-profiling
+scipy
+pandas-profiling
+sweetviz
