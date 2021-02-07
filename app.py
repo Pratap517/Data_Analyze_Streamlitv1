@@ -10,7 +10,6 @@ Created on Tue Feb  2 14:46:24 2021
 import streamlit as st
 import pandas as pd
 from pandas_profiling import ProfileReport
-import sweetviz as sv
 import streamlit.components.v1 as stc
 from streamlit_pandas_profiling import st_profile_report
 import seaborn as sns
@@ -104,23 +103,7 @@ def main():
                    st.write(df.dtypes)
                 if st.button(" Check the Summary"):
                    st.write(df.describe().T)
-                
-            
-            
-            
-        
-            
-       
-            
-            
-        
-            
-            
-            
-            
-            
-            
-               
+                          
     elif   choice=="Graphs":
         st.subheader('Plot Graphs')
         
