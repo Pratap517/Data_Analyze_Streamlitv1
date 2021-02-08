@@ -174,6 +174,10 @@ def main():
                   """, unsafe_allow_html=True)
                   
         st.subheader("Please Select the type of report in Menu")
+	st.markdown('  **_Note:_**. :smile:')
+	st.write(" if in case page crashed, Request you to reload page and try using csv file with less features and size upto 5 Mb.")
+	
+	
         
         stc.html("""
 			<style>
