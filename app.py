@@ -136,9 +136,8 @@ def main():
                           </style>
                   """, unsafe_allow_html=True)
         st.subheader('A little bit about me!')
-        st.write("Hello. Prathap Here, a Motivated Data scientist with 3+ years of experience as a Data Analyst. Passionate about building models that fix problems. Relevant skills include machine learning, problem solving, programming, and creative thinking.")
-        st.write(
-            "Connect me through @ [LinkedIn](https://www.linkedin.com/in/pratap517/)")
+        st.write("Hello. Prathap Here, a Motivated Data scientist with 3+ years of experience as a Data Scientist. Passionate about building models that fix problems. Relevant skills include machine learning, problem solving, programming, and creative thinking.")
+	
         st.write("Check out The code @ [Github](https://github.com/Pratap517)")
         st.subheader("check out my other tiny projects below ")
         st.write(
